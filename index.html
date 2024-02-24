@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius to Farenheit</title>
+</head>
+<body>
+    <h1 id="Celsius"></h1>
+    <h1 id="Farenheit"></h1>
+    <script>
+        var temp=parseInt(prompt("Please enter temperature (in celsius): "));
+        var temp2=(9/5*temp)+32;
+        document.getElementById("Celsius").innerHTML=temp + " degrees Celsius.";
+        document.getElementById("Farenheit"). innerHTML=temp2 + " degrees Farenheit.";
+    </script>
+</body>
+</html>
